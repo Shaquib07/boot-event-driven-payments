@@ -1,1 +1,1 @@
-# boot-event-driven-payments
+A hands-on Spring Boot project demonstrating microservices architecture with two independently deployable services — order-service and payment-service — communicating asynchronously via Apache Kafka. The order service publishes payment requests and consumes payment outcomes, while the payment service processes multiple payment methods (CARD, UPI, WALLET) using the strategy pattern. Both services implement JWT-based Spring Security, AOP for logging and auditing, and global exception handling for robust error responses.
